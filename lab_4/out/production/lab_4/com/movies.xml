@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<catalog>
+    <movie id="mv101">
+        <director>Christopher Nolan</director>
+        <title>Inception</title>
+        <genre>Sci-Fi</genre>
+        <price>12.99</price>
+        <release_date>2010-07-16</release_date>
+        <description>A mind-bending thriller about dreams within dreams.</description>
+    </movie>
+    <movie id="mv102">
+        <director>Peter Jackson</director>
+        <title>The Lord of the Rings: The Fellowship of the Ring</title>
+        <genre>Fantasy</genre>
+        <price>9.99</price>
+        <release_date>2001-12-19</release_date>
+        <description>An epic adventure through Middle-earth to destroy a powerful ring.</description>
+    </movie>
+</catalog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><animals>
+    <animal id="1">
+        <name>Собака</name>
+        <careCost>150</careCost>
+    </animal>
+    <animal id="2">
+        <name>Кот</name>
+        <careCost>100</careCost>
+    </animal>
+    <animal id="3">
+        <name>Черепаха</name>
+        <careCost>15</careCost>
+    </animal>
+</animals>

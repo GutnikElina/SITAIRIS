@@ -3,7 +3,7 @@ package Cinema;
 import java.util.HashMap;
 import java.util.Map;
 
-class Manager {
+public class Manager {
     private static Map<String, Integer> amountOfTickets;
 
     static {

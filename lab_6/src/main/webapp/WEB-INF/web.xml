@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+  <servlet>
+    <servlet-name>ReadAnimalServlet</servlet-name>
+    <servlet-class>Servlets.ReadAnimalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadAnimalServlet</servlet-name>
+    <url-pattern>/readAnimals</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddAnimalServlet</servlet-name>
+    <servlet-class>Servlets.AddAnimalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddAnimalServlet</servlet-name>
+    <url-pattern>/addAnimal</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteAnimalServlet</servlet-name>
+    <servlet-class>Servlets.DeleteAnimalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteAnimalServlet</servlet-name>
+    <url-pattern>/deleteAnimal</url-pattern>
+  </servlet-mapping>
+
+</web-app>
